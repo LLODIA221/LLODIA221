@@ -1,16 +1,10 @@
-## Hi there 👋
-
-<!--
-**LLODIA221/LLODIA221** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Hi, I'm Cheikh Diallo 👋
+Fullstack Developer & System Administrator — Saint-Louis, Senegal 🇸🇳
+I build web, desktop and mobile apps end-to-end — from the database and REST API to the UI and deployment.
+🚀 About me
+💻 Fullstack developer working with React / Next.js, Laravel and Spring Boot
+🏥 IT specialist at the Regional Hospital of Saint-Louis (servers, network, business software)
+👨‍🏫 Part-time lecturer in network & system administration (Kocc Barma University)
+🎓 Google certified — System Administration and IT Infrastructure Services
+🌱 Currently learning: Node.js, Next.js App Router, and AI developer tools
+🤝 Freelance work for local businesses: e-commerce, POS, management apps
