@@ -51,15 +51,104 @@
 
 ### 📂 Featured projects
 
-| Project | Description | Stack |
-|---|---|---|
-| **EventPro** | Multi-role event ticketing system (organizers, staff, buyers) | React 18 · TypeScript · Vite · Laravel 11 · MySQL |
-| **ShopManager** | Point-of-sale and back-office app for any kind of shop | React · Vite · Laravel 11 · MySQL · Docker Compose |
-| **Journal de Caisse** | Cash register app for schools, available as web and desktop (.exe) | Web · Electron |
-| **SamaDepense** | Mobile app to track daily personal income and expenses | Flutter · Laravel 11 · SQLite |
-| **Staff Document Manager** | Staff document management with roles & permissions (built at SAED) | Spring Boot · Next.js |
+> 🔒 These repositories are private (client and commercial work). Every screenshot below uses **fictitious demo data**. I'm happy to give a live walkthrough on request.
 
-> Some client projects are private. I'm happy to give a live walkthrough on request.
+#### 🎟️ EventPro — event ticketing & access control
+
+Sell tickets at the gate, print them with a signed QR code and scan them at the entrance — one web app for vendors, security staff, supervisors and the organizer.
+
+- Role-based workspaces enforced by the API · HMAC-signed QR codes · anti-passback scanning
+- Cash, Wave, Orange Money and invitations · cash closing (Z-report) · audit log · CSV exports
+
+**Stack:** React 19 · TypeScript · Vite · Laravel 11 · MySQL · Docker Compose
+
+<p align="center">
+  <img src="assets/eventpro/dashboard.png" alt="EventPro — supervisor dashboard" width="73%">
+  <img src="assets/eventpro/mobile-sale.png" alt="EventPro — ticket sale on mobile" width="21%">
+</p>
+
+<details>
+<summary>More screenshots</summary>
+<p align="center">
+  <img src="assets/eventpro/admin-events.png" alt="EventPro — events (admin)" width="32%">
+  <img src="assets/eventpro/new-sale.png" alt="EventPro — new sale (vendor)" width="32%">
+  <img src="assets/eventpro/cash-closing.png" alt="EventPro — cash closing" width="32%">
+</p>
+</details>
+
+#### 🛒 ShopManager — POS & online store for small retailers
+
+Point of sale, stock, customers and a public online catalogue for a single shop, paid in FCFA by cash, card, Wave or Orange Money.
+
+- Offline-first checkout (IndexedDB queue + sync) · 80 mm receipts and QZ Tray printing
+- Online orders · customer portal · PayTech payments · Android app with Capacitor
+
+**Stack:** React 18 · TypeScript · Vite · Tailwind / shadcn/ui · Laravel 12 · MySQL · Capacitor · Docker
+
+<p align="center">
+  <img src="assets/shopmanager/pos.png" alt="ShopManager — point of sale" width="73%">
+  <img src="assets/shopmanager/mobile-storefront.png" alt="ShopManager — storefront on mobile" width="21%">
+</p>
+
+<details>
+<summary>More screenshots</summary>
+<p align="center">
+  <img src="assets/shopmanager/dashboard.png" alt="ShopManager — dashboard" width="32%">
+  <img src="assets/shopmanager/products.png" alt="ShopManager — products" width="32%">
+  <img src="assets/shopmanager/storefront.png" alt="ShopManager — public catalogue" width="32%">
+</p>
+</details>
+
+#### 🏫 Journal de Caisse — school cash book & fee tracking
+
+Cash book for private schools: tuition and canteen payments, month-by-month fee tracking, invoices and receipts, income and expenses.
+
+- Fees per student (monthly, yearly, one-off) · late-payment list · invoices from unpaid fees · PDF / CSV
+- Roles and per-user permissions · TOTP two-factor login · school-year closing · mobile-first UI
+
+**Stack:** React 19 · TanStack Start · Tailwind CSS 4 · Laravel 12 · MySQL · desktop edition (.exe)
+
+<p align="center">
+  <img src="assets/journal-de-caisse/dashboard.png" alt="Journal de Caisse — dashboard" width="73%">
+  <img src="assets/journal-de-caisse/mobile-operations.png" alt="Journal de Caisse — operations on mobile" width="21%">
+</p>
+
+<details>
+<summary>More screenshots</summary>
+<p align="center">
+  <img src="assets/journal-de-caisse/operations.png" alt="Journal de Caisse — operations" width="32%">
+  <img src="assets/journal-de-caisse/payment-tracking.png" alt="Journal de Caisse — payment tracking" width="32%">
+  <img src="assets/journal-de-caisse/invoicing.png" alt="Journal de Caisse — invoicing" width="32%">
+</p>
+</details>
+
+#### 💸 SamaDepense (NAFA) — offline expense tracker in FCFA
+
+Android budget app built for everyday life in Senegal: two-tap entries, mobile-money fees, tontines, family transfers — 100 % offline, no account, nothing leaves the phone.
+
+- Budget aligned on payday · recurring entries · tontines and event envelopes · debts
+- Statistics and 6-month trend · SMS import by paste · PIN / biometric lock · backup & restore
+
+**Stack:** Flutter · Dart · SQLite (sqflite) · Provider · fl_chart
+
+<p align="center">
+  <img src="assets/samadepense/home.png" alt="SamaDepense — home" width="30%">
+  <img src="assets/samadepense/statistics.png" alt="SamaDepense — statistics" width="30%">
+  <img src="assets/samadepense/budget.png" alt="SamaDepense — budget" width="30%">
+</p>
+
+<details>
+<summary>More screenshots</summary>
+<p align="center">
+  <img src="assets/samadepense/goals.png" alt="SamaDepense — tontine" width="30%">
+  <img src="assets/samadepense/debts.png" alt="SamaDepense — debts" width="30%">
+  <img src="assets/samadepense/settings.png" alt="SamaDepense — settings" width="30%">
+</p>
+</details>
+
+#### Other work
+
+- **Staff Document Manager** — staff document management with roles & permissions, built at SAED · Spring Boot · Next.js
 
 ---
 
